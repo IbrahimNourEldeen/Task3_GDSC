@@ -1,4 +1,8 @@
-.parent1{
+
+body{
+    margin: 0;
+}
+.home_bage{
     background-image: url("aaa.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -7,54 +11,56 @@
     width: 100%;
     height: 100vh;
 }
-.parent1 .div1{
+.nav_img{
+    width: 50%;
+    float: left;
+    
+}
+.nav_img img{
     width: 30%;
-    padding-left: 55px;
+    margin: 15px 48px;
+}
+.nav_list{
+    width: 50%;
     float: left;
 }
-.parent1 .div2{
-    width: 70%;
-    padding-left:30% ;
+.nav_list ul{
+    margin-left: 260px;
 }
-.parent1 .div1 img{
-    width: 50%;
-}
-
-nav{
-    padding-left: 40%;
-    width: 100%;
-}
-.parent1 .div2 li{
+.nav_list li{
     float: left;
     color: white;
-    font-size: 20px;
-    padding: 15px;
     list-style-type: none;
+    margin: 0px 15px;
+}
+.nav_list a{
+    color: white;
+    text-decoration: none;
 }
 .clr{
     clear: both;
 }
-.parent1 .div3{
+.home_bage .home_bage_text{
     text-align: center;
-    color: rgb(128, 127, 128);
+    color: rgb(186 186 186);
     margin-top: 25vh;
     font-size: 20px;
 }
-.parent1 .div3 h1{
+.home_bage .home_bage_text h1{
     color: white;
     font-size: 60px;
 }
-.parent1 .div3 button{
+.home_bage .home_bage_text button{
     padding: 10px;
     margin: 5px;
     color: white;
 }
-.parent1 .div3 .ba{
+.home_bage .home_bage_text .first_button{
     background-color:#8e7755;
     border:none;
     border-radius: 5px;
 }
-.parent1 .div3 .bb{
+.home_bage .home_bage_text .second_button{
     background-color: transparent;
     border-color: white;
     border-radius: 5px;
@@ -62,115 +68,120 @@ nav{
 
 
 
-.parent2{
+.We{
     width: 100%;
 }
-.parent2 .div1{
+.We .we_img{
     width: 40%;
     float: left;
 }
-.parent2 .div1 img{
+.We .we_img img{
     width: 100%;
     margin: 40px;
 }
-.parent2 .div2{
+.We .we_text{
     width:60%;
     float: left;
     text-align: center;
     margin-top: 30px
 }
-.parent2 .div2 p{
+.We .we_text p{
     width: 80%;
     margin: auto;
     padding: 10px;
     line-height: 2;
 }
-.parent2 .div2 .h{
+.We .we_text .h{
     font-weight: bold;
     text-align: left;
 }
-.parent2 .div2 p{
+.We .we_text p{
     color: #8b8a88;
 }
-.parent3{
+
+
+.Our_location{
     width: 100%;
     background-color: #eee;
 }
-.parent3 .div1{
+.Our_location .Our_location_text{
     width: 50%;
     float: left;
     text-align: center;
 }
-.parent3 .div1 p{
+.Our_location .Our_location_text p{
     width: 80%;
     margin: auto;
     padding: 15px;
     line-height: 2;
     color: #8b8a88;
 }
-.parent3 .div2{
+.Our_location .Our_location_img{
     width: 50%;
     float: left;
 
 }
-.parent3 .div2 img{
+.Our_location .Our_location_img img{
     width: 100%;
     margin: 40px 40px 40px -30px;
 }
-.parent4{
+
+
+.contact_information{
     width: 100%;
 }
-.parent4 .div1{
+.contact_information .contact_information_text{
     width: 50%;
     float: left;
     text-align: center;
     margin: 40px 0;
 }
-.parent4 .div2{
+.contact_information .contact_information_img{
     width: 50%;
     float: left;
     text-align: left; 
 }
-.parent4 .div1 p{
+.contact_information .contact_information_text p{
     width: 80%;
     margin: auto;
     padding: 10px;
     line-height: 2;
 }
-.parent4 .div1 .h{
+.contact_information .contact_information_text .h{
     text-align: left;
     line-height: 2;
 }
-.parent4 .div1 .h i{
+.contact_information .contact_information_text .h i{
     background-color: #8b8a88;
     padding: 5px;
     border-radius: 50%;
 }
-.parent4 .div2 iframe{
+.contact_information .contact_information_img iframe{
     margin: 60px 0;
     margin-left: -20px;
 }
-.parent5{
+
+.our_baking{
     width: 100%;
     background-color: #eee;
 }
-.parent5 div{
+.our_baking div{
     margin: 20px 0;
 }
-.parent5 .div1{
+.our_baking .div1{
     text-align: center;
     width: 100%;
     padding-top: 20px;
 }
-.parent5 .div2{
+.our_baking .div2{
     float: left;
     width:33.3333%;
     text-align: center;
 }
-.parent5 .div2 img{
+.our_baking .div2 img{
     width: 300px;
 }
-.parent5 p{
+.our_baking p{
     color: #8b8a88;
 }
 .final{
@@ -205,4 +216,7 @@ nav{
     width: 80%;
     height: 1px;
     background-color: #34332f;
+}
+.icons{
+    padding-bottom: 20px;
 }
